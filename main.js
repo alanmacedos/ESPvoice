@@ -16,7 +16,7 @@ recognition.onresult = (event) => {
 
     result.textContent = texto;
 
-    const text = result.toLowerCase();
+    const text = texto.toLowerCase();
 
     if (text.includes("ligar") || text.includes("liga")) {
 
