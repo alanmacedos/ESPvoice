@@ -16,9 +16,10 @@ recognition.onresult = (event) => {
 
     result.textContent = texto;
 
-    const text = texto.toLowerCase();
+    // const text = texto.toLowerCase();
+    const text = texto.trim();
 
-    if (text.includes("ligar") || text.includes("liga")) {
+    if (text.includes("Ligar") || text.includes("Liga")) {
 
         setMotorState(1)
             .then(() => {
