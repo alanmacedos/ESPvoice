@@ -8,7 +8,7 @@ FirebaseData stream;
 FirebaseAuth auth;
 FirebaseConfig config;
 
-const int ledPin = 2;
+const int ledPin = 25;
 bool streamStarted = false;
 
 void streamTimeoutCallback(bool timeout)
